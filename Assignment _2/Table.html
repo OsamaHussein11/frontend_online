@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table{
+         width: 400px;
+         table-layout: fixed;            
+        }
+    </style>
+    
+</head>
+<body>
+
+    <table border="1" cellpadding="5" cellspacing="0" >
+        <thead>
+            <tr>
+            <th colspan="4">List</th>
+            </tr>
+            <tr>
+            <th colspan="2">Pros</th>
+            <th colspan="2">Cons</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Pro 1</th>
+                <td></td>
+                <td>Con 1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sub Pro 1</td>
+                <th rowspan="4">Con 2</th>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sub Pro 2</td>
+                <td>Sub Con 1</td>
+            </tr>
+            <tr>
+                <th>Pro 2</th>
+                <td></td>
+                <td>Sub Con 2</td>
+            </tr>
+            <tr>
+                <th>Pro 3</th>
+                <td></td>
+                <td>Sub Con 3</td>
+            </tr>
+            <tr>
+                <th rowspan="3"></th>
+                <th rowspan="3"></th>
+                <th rowspan="3">Con 3</th>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Sub Con 1</td>
+            </tr>
+            <tr>
+                <td>Sub Con 2</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    
+</body>
+</html>
