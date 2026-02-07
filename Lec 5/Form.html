@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- 
+    Normal reload bad >> Click the bottom of reload or Ctrl + R 
+    Ctrl + F5 Hard reload
+    http://127.0.0.1:5500/Lec%205/Form.html --<>>>>> Complete reload 
+    http://127.0.0.1:5500/Lec%205/Form.html? 
+    http://127.0.0.1:5500/Lec%205/Form.html?name=&age=
+    http://127.0.0.1:5500/Lec%205/Form.html?name=osmaa+Hussrin&age=24 
+    -->
+    
+    <form method="get" action="" enctype="multipart/form-data">
+        <div>
+        <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+        </div>
+        <br>
+        <div>
+        <label for="age">Age: </label><br>    
+            <input type="number" id="age" name="age" placeholder="Your Age">
+        </div> 
+        <br>   
+            <button>Send Data</button>
+
+
+
+
+
+            <!-- <input type="submit" value="Send Data">
+            <button><img src="images/background.jpg" alt="background" width="30"></button> -->
+            <!-- <button type="button">Normal Button</button>
+            <button type="reset">Reset</button> -->
+    </form>
+</body>
+</html> 
