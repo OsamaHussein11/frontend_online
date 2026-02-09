@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {   
+    margin: 0;
+}
+
+header,main,footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: #470202;
+}
+h2{
+    color: #470202;
+}
+
+
+fieldset {
+    max-width: 500px;
+    padding: 16px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+input.radio {
+    width: auto;
+}
+
+footer {
+    padding: 16px 0;
+}
