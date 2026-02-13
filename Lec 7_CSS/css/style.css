@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {   
+    margin: 0;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 100;
+    color: rgb(233, 13, 13);
+    background-color: rgb(9, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*       tag name a it is the simple one  */
+
+#link{  
+    color:  brown;
+}
+ /*          in id use # before id      and it is the Stronger    بمعنى لو الأسماء متشابه و لكن هذا النوع هو الأقوى و الذي سوف يقرأه المتصفح  */
+
+.link{
+    color: blue;
+}
+
+/*          in class use . before class     and it is less than #      النوع الأكثر الأستخداما في السي اس اس  */
+
+a.link{
+    color: rgb(238, 255, 0);
+}
+
+div p{
+    color: blue;
+}
+div>p{
+    color: darkmagenta;
+}
+
+
+.box{
+    background-color:#356 ;
+     /* background-color: rgb(59, 39, 39); from 0 to 255  */
+     /* background-color: rgba(200,42,54, 0.5); */
+    height: 200px;
+}
+
+
+.link2{
+    background-color: #c0a425;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.link2:hover{
+    background-color: #356;
+    
+}
+
+
+
